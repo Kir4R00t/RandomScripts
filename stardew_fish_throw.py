@@ -2,6 +2,8 @@ import pyautogui as pg
 from pynput.keyboard import Key, Listener
 from time import sleep
 
+# Add a set distance option for user (he needs to specify his rod (no pun intended))
+
 def throw_fish(key):
     if key == key.f1:
         pg.mouseDown(button='left')
